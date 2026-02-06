@@ -1,0 +1,27 @@
+# Node
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python
+backend/.venv/
+**/__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+
+# Env files
+backend/.env
+frontend/.env.local
+.env
+.env.*
+
+# Uploads / generated
+backend/uploads/
+uploads/
+
+# OS
+.DS_Store
