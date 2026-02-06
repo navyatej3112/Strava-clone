@@ -2,6 +2,16 @@
 
 A Strava-like web app for activity tracking and social feed. Track runs, rides, and walks; upload GPX/TCX; follow users; like and comment on activities.
 
+## Preview
+
+![PaceTrail homepage](./pacetrail_home.png)
+
+- **FastAPI + Next.js** — Backend API with cookie-based auth and a modern React frontend (App Router, Tailwind, shadcn-style UI).
+- **GPX/TCX processing** — Upload activities; async parsing, stats, polyline, and segment matching via RQ workers.
+- **PaceRank & leaderboards** — 30-day run scoring, tiers, rank history, global and following leaderboards, FairPlay eligibility.
+- **Segments & PR/KOM** — Create segments, auto-detect efforts on runs, leaderboards, PR/KOM notifications with dedupe.
+- **Privacy & notifications** — Activity visibility (public/followers/private), follow/like/comment/rank_up/segment_pr/segment_kom notifications.
+
 ## Repo structure
 
 ```
